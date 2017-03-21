@@ -38,7 +38,7 @@ p, ul, ol {
 }
 
 a {
-	color: #9B1AC8;
+	color: #004494;
 }
 
 a:hover {
@@ -57,9 +57,20 @@ a:hover {
 	background: url(images/shepherdAndSheep.jpg) no-repeat right top;
 }
 
+#scoreboardHeader {
+	position: absolute;
+	top: 105px;
+}
+
+#timeScoreboard {
+	position: absolute;
+	bottom: 10;
+	text-align: center;
+}
+
 #header h1, #header p {
 	margin: 0;
-	color: #A878EF;
+	color: #004494;
 }
 
 #header h1 {
@@ -71,7 +82,7 @@ a:hover {
 	margin-top: -10px;
 }
 #header a {
-	color: #A878EF;
+	color: #004494;
 	text-decoration:none;
 }
 
@@ -101,7 +112,7 @@ a:hover {
 }
 
 .successAlert {
-	background: #7B55B4;
+	background: #004494;
 	color:#FFFFFF;
 	padding-left = 10px;
 }
@@ -109,7 +120,7 @@ a:hover {
 .title {
 	margin: 0;
 	padding-bottom: 5px;
-	border-bottom: 2px solid #A878EF;
+	border-bottom: 2px solid #004494;
 }
 
 #sidebar {
@@ -188,7 +199,7 @@ a:hover {
 
 .menuButton {
 	display: block;
-	border-bottom: 3px solid #A878EF;
+	border-bottom: 3px solid #004494;
 	background: #D4D4D4;
 	padding: 5px 5px;
 	border-radius: 5px;
@@ -201,16 +212,16 @@ a:hover {
    }
    
 .menuButton:hover {
-   border-top-color: #CC99FF;
+   border-top-color: #004494;
    background: #BFBFBF;
    }
 .menuButton:active {
-   border-top-color: #8660BF;
-   background: #8660BF;
+   border-top-color: #004494;
+   background: #004494;
    }
    
    .scoreBar {
-	background-color: #965BED;
+	background-color: #004494;
 	height: 30px;
 	position: relative;
 	font-size: 25px;
@@ -225,7 +236,7 @@ a:hover {
 }
 
 .scoreBar:hover {
-	background-color: #AC7DF2;
+	background-color: #004494;
 	height: 30px;
 	position: relative;
 	font-size: 25px;
@@ -260,7 +271,7 @@ a:hover {
 
 .place{
 	display: inline; 
-	color: #000000;
+	color: #FFFFFF;
 	min-width:25px;
 }
 
@@ -325,7 +336,7 @@ a:hover {
 .informationBox {
 	display: block; 
 	margin 0; 
-	border-color:#A878EF; 
+	border-color:#004494; 
 	border-style:dashed; 
 	background-color: #D4D4D4; 
 	padding-top:5px; 
@@ -339,7 +350,7 @@ a:hover {
 	float: right; 
 	margin 0; 
 	width: 685px;
-	border-color:#A878EF;
+	border-color:#004494;
 	border-style:dashed;
 	background-color: #D4D4D4;
 	padding-top:5px;
@@ -425,4 +436,20 @@ a:hover {
     word-wrap: break-word;
     z-index: 1000000;
 	-webkit-font-smoothing:subpixel-antialiased;
+}
+
+input[type="button"], input[type="submit"], button
+{
+	background-color: #D4CECE;
+	border-radius: 5px;
+	border: 1px solid #004494;	
+}
+
+select {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

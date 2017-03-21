@@ -59,8 +59,12 @@
 		<div id="wrapper">
 		<!-- start header -->
 		<div id="header">
+		<!-- <h1>Security Shepherd</h1> -->
+		<div id="scoreboardHeader">
 			<h1>Scoreboard</h1>
 			<p>The OWASP Security Shepherd Project</p>
+			</div>
+		</div>
 		</div>
 		<!-- end header -->
 		<!-- start page -->
@@ -131,7 +135,7 @@
 				function poll() {
 					if(!windowIsActive) { //If Window/Tab is currently not in focus, wait to do the magic
 						console.log ( 'Window not active. Waiting' );
-						$("#badData").html('<center>Scoreboard last updated ' + timeSince(lastUpdated) + ' ago</center>');
+						$("#badData").html('<div id="timeScoreboard"><center>Scoreboard last updated ' + timeSince(lastUpdated) + ' ago</center></div>');
 						$("#badData").show("slow");
 						t=setTimeout("poll()", 500); // try again really soon
 					}

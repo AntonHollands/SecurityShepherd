@@ -38,7 +38,7 @@ p, ul, ol {
 }
 
 a {
-	color: #9B1AC8;
+	color: #004494;
 	word-wrap: break-word;
 }
 
@@ -68,7 +68,7 @@ td {
 
 #header h1, #header p {
 	margin: 0;
-	color: #A878EF;
+	color: #004494;
 }
 
 #header h1 {
@@ -80,7 +80,7 @@ td {
 	margin-top: -10px;
 }
 #header a {
-	color: #A878EF;
+	color: #004494;
 	text-decoration:none;
 }
 
@@ -116,7 +116,7 @@ td {
 }
 
 .successAlert {
-	background: #7B55B4;
+	background: #004494;
 	color:#FFFFFF;
 	padding-left = 10px;
 }
@@ -124,7 +124,7 @@ td {
 .title {
 	margin: 0;
 	padding-bottom: 5px;
-	border-bottom: 2px solid #A878EF;
+	border-bottom: 2px solid #004494;
 }
 
 #sidebar {
@@ -189,4 +189,20 @@ td {
     word-wrap: break-word;
     z-index: 1000000;
 	-webkit-font-smoothing:subpixel-antialiased;
+}
+
+input[type="button"], input[type="submit"], button
+{
+	background-color: #D4CECE;
+	border-radius: 5px;
+	border: 1px solid #004494;	
+}
+
+select {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

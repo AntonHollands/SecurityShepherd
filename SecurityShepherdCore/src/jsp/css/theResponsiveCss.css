@@ -17,8 +17,8 @@
 	.sidebarWrapper {
 		width: 40px;
 		background: #D4D4D4;
-		border-top: 3px solid #A878EF;
-		border-right: 3px solid #A878EF;
+		border-top: 3px solid #004494;
+		border-right: 3px solid #004494;
 		position: absolute;
 		height: 150%;
 		border-radius: 2px;
@@ -29,8 +29,8 @@
 	.sidebarWrapper:hover {
 		width: 200px;
 		background: #AEACAC;
-		border-top: 3px solid #A878EF;
-		border-right: 3px solid #A878EF;
+		border-top: 3px solid #004494;
+		border-right: 3px solid #004494;
 		position: absolute;
 		border-radius: 2px;
 		text-decoration: none;
@@ -51,8 +51,8 @@
 	.sidebarWrapperAlwaysOpen {
 		width: 200px;
 		background: #AEACAC;
-		border-top: 3px solid #A878EF;
-		border-right: 3px solid #A878EF;
+		border-top: 3px solid #004494;
+		border-right: 3px solid #004494;
 		position: absolute;
 		height: 100%;
 		border-radius: 2px;

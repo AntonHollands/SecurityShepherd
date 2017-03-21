@@ -75,7 +75,7 @@ if(ses.getAttribute("loginFailed") != null)
 	<jsp:include page="translation-select.jsp" />
 	<!-- start header -->
 	<div id="header">
-		<h1>Security Shepherd</h1>
+		<!-- <h1>Security Shepherd</h1>  -->
 	</div>
 	<!-- end header -->
 	<!-- start page -->
@@ -93,10 +93,7 @@ if(ses.getAttribute("loginFailed") != null)
 				<form name="loginForm" method="POST" action="login">
 					<table>
 						<tr><td><p><fmt:message key="generic.text.username" />:</td><td><input type="text" name="login" value="" autocomplete="OFF" autofocus/></p></td></tr>
-						<tr><td><p><fmt:message key="generic.text.password" />:&nbsp;&nbsp;&nbsp;&nbsp;
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											</td><td><input type="password" name="pwd" autocomplete="OFF"/><br /></td></tr>
+						<tr><td><p><fmt:message key="generic.text.password" />:</td><td><input type="password" name="pwd" autocomplete="OFF"/><br /></td></tr>
 						<tr><td colspan="2" align="center">
 							<fmt:message key="generic.text.submit" var="buttonValue" />
 								<input type="submit" name="submit" value="${buttonValue}" />

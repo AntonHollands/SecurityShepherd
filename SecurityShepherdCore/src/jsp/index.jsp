@@ -83,7 +83,7 @@ if (request.getSession() != null)
 		<div id="wrapper">
 		<jsp:include page="translation-select.jsp" />
 		<div id="header">
-			<h1>Security Shepherd</h1>
+			<!-- <h1>Security Shepherd</h1>  -->
 			<div style="position: absolute; top: 12px; right: 130px;">
 				<p>
 					<strong><%= userName %>&nbsp;&#x7c;&nbsp;<a href="logout?csrfToken=<%= csrfToken %>"><fmt:message key="generic.text.logout" /></a></strong>
